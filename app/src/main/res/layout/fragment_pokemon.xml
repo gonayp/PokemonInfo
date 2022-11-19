@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    tools:context=".mainModule.PokemonFragment">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/common_padding_default"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:id="@+id/imgPhoto"
+                    android:layout_width="@dimen/photo_size_thumb"
+                    android:layout_height="@dimen/photo_size_thumb"
+                    android:src="@drawable/ic_pokemon"
+                    android:layout_marginStart="@dimen/common_padding_default"
+                    android:contentDescription="@string/description_img_photo"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginStart="@dimen/common_padding_default"
+                    android:padding="@dimen/common_padding_default">
+
+                    <TextView
+                        android:id="@+id/tvName"
+                        tools:text="Nombre"
+                        android:textSize="@dimen/title_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/tvBaseExperience"
+                        tools:text="Experiencia"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/tvHeight"
+                        tools:text="Height"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/tvWeight"
+                        tools:text="Weight"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+</FrameLayout>

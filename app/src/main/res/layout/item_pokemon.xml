@@ -18,6 +18,7 @@
             android:contentDescription="@string/description_img_photo"
             android:background="@android:color/darker_gray"
             app:layout_constraintTop_toTopOf="parent"
+            android:visibility="gone"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"/>
 
@@ -30,6 +31,7 @@
             android:maxLines="1"
             android:ellipsize="end"
             android:padding="@dimen/common_padding_min"
+            android:textSize="20sp"
             android:layout_marginTop="@dimen/common_padding_middle"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toStartOf="@id/imgPhoto"

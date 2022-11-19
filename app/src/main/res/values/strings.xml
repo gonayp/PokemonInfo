@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Pokemon Info</string>
     <string name="description_img_photo">Imagen del pokemon</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tv_base_experience">Base Experience: </string>
+    <string name="tv_height">Height: </string>
+    <string name="tv_weight">Weight: </string>
 </resources>
