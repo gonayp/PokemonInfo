@@ -36,6 +36,14 @@ class MainViewModel: ViewModel() {
         }
     }
 
+    fun addPokemon(pokemon:Pokemon){
+        pokemonList.add(pokemon)
+    }
+
+
+    fun returnPokemonList(): MutableList<Pokemon> {
+        return pokemonList
+    }
 
 
 

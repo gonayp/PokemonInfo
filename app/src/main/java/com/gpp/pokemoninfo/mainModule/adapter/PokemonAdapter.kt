@@ -30,11 +30,6 @@ class PokemonAdapter (private var pokemons: MutableList<Pokemon>, private var li
 
             binding.tvName.text = pokemon.name
 
-            /*Glide.with(mContext)
-                .load(pokemon.photoUrl)
-                .diskCacheStrategy(DiskCacheStrategy.ALL)
-                .centerCrop()
-                .into(binding.imgPhoto)*/
         }
     }
 
@@ -58,5 +53,8 @@ class PokemonAdapter (private var pokemons: MutableList<Pokemon>, private var li
 
 
         }
+
+
+
     }
 }
